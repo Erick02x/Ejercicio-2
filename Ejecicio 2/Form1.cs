@@ -31,7 +31,7 @@ namespace Ejecicio_2
 
             decimal total = await PromedioAsync(nota1,nota2, nota3, nota4);
 
-            MessageBox.Show($"El promedio total es: {total}");
+            MessageBox.Show($"El promedio final es: {total}");
         }
 
         private async Task<decimal> PromedioAsync(decimal n1, decimal n2, decimal n3, decimal n4)
